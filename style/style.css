@@ -10,13 +10,13 @@
     max-width: 1320px;
     margin: 0 auto;
     min-height: 600px;
-    border: 2px solid green;
     margin-top: 20px;
     background-color: rgba(0, 0, 0, 0.5),;
     background-image: url(../images/Banner\ Image.png);
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
+    margin-bottom: 80px;
 }
 .banner-conteinar{
     display: flex;
@@ -38,3 +38,97 @@
     font-weight: 900;
 
 }
+/* 65% section style stsrts here  */
+.second-section-container{
+   max-width: 802.9px;
+   height: 806px;
+   border: 2px solid greenyellow;
+   margin: 0 auto; 
+   margin-bottom: 80px;  
+   
+}
+.second-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+}
+.second-section-content h1{
+    color: red;
+    font-size: 88px;
+    font-weight: 700;
+
+}
+.second-section-content p{
+    color: rgb(254, 0, 0);
+    font-size: 26px;
+    font-weight: 500;
+}
+.second-section-content h3{
+    color: rgb(7, 6, 6);
+    font-size: 46px;
+    font-weight: 700;
+}
+.image-conteinar{
+    width: 802.9px;
+    height: 500px;
+}
+.image-conteinar img{
+    height: 100%;
+    width: 100%;
+
+}
+
+/* midnight section style starts here */
+.midnight-party-container{
+    max-width: 1320px;
+    height: 700px;
+    border: 2px solid black;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(../images/Vectorrr.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+.leftside-content{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.leftside-content h1{
+    color: white;
+    Font-weight: 900;
+    font-size: 64px;
+
+}
+.leftside-content p{
+    color: aliceblue;
+    Font-weight: 500;
+    font-size: 24px;
+}
+.btn-box{
+    color: rgb(163, 14, 186);
+    font-size: 20px;
+    background-color: rgb(26, 192, 4);
+    border: 2px solid rgb(17, 255, 0);
+    border-radius: 30px;
+    margin: 0 auto;
+}
+.rightsite-content{
+    width: 349.16px;
+    height: 464.65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* midnight section style end here */
+
