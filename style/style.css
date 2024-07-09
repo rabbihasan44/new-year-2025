@@ -7,7 +7,7 @@
 }
 /* banner section style starta here  */
 .banner-conteinar{
-    width: 1320px;
+    max-width: 1320px;
     margin: 0 auto;
     min-height: 600px;
     border: 2px solid green;
